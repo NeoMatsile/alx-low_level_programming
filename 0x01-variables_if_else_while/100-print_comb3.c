@@ -29,10 +29,11 @@ int main(void)
 					putchar(' ');
 				}
 			}
-j++;
+			j++;
 		}
+		j = '0';
+		i++;
 	}
-j = '0';
-i++;
-}
 return (0);
+}
+
